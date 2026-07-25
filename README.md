@@ -1,6 +1,6 @@
 # LLM-Powered Fancam Analytics
 
-An end-to-end AI analytics project that combines **Data Analytics**, **LLM-based Knowledge Construction**, **Hybrid Retrieval-Augmented Generation (RAG)**, and an **AI Agent** to analyze K-pop fancam performance through natural language interaction.
+An end-to-end AI analytics project that combines **Data Analytics**, **LLM-based Knowledge Construction**, **Hybrid Retrieval-(RAG)**, and an **AI Agent** to analyze K-pop fancam performance through natural language interaction.
 
 ---
 
