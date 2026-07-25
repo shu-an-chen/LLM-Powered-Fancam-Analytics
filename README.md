@@ -1,36 +1,42 @@
 # LLM-Powered Fancam Analytics
 
-An end-to-end AI analytics project that combines **Data Analytics**, **LLM-based Knowledge Construction**, **Hybrid Retrieval-(RAG)**, and an **AI Agent** to analyze K-pop fancam performance through natural language interaction.
+An end-to-end AI analytics project integrating **Data Analytics**, **LLM-based Knowledge Construction**, **Hybrid Retrieval- RAG**, and an **AI Agent** for natural language analysis of K-pop fancam data.
 
 ---
 
 ## Project Overview
 
-This project investigates the factors influencing K-pop fancam view counts by integrating statistical modeling with Large Language Model (LLM) applications.
+This project explores the factors influencing K-pop fancam views by combining statistical modeling with LLM applications.
 
-The workflow consists of three stages:
+The complete pipeline consists of three stages:
 
-1. **Data Analytics** – Identify key factors affecting fancam views through statistical modeling.
-2. **LLM Labeling** – Transform unstructured YouTube comments into a structured knowledge base using LLM.
-3. **Hybrid RAG + AI Agent** – Support natural language queries through metadata filtering, semantic retrieval, and structured analytics.
+- **Data Analytics** – Identify key factors affecting fancam views through statistical modeling.
+- **LLM Labeling** – Convert unstructured YouTube comments into a structured knowledge base.
+- **Hybrid RAG + AI Agent** – Enable natural language analytics through automatic query routing and hybrid retrieval.
 
-> 📌 *Architecture Diagram will be added here.*
+>  **Project Architecture**
+
+*(Architecture Diagram)*
+
+>  **AI Agent Workflow**
+
+*(Workflow Diagram: Query Parser → Structured / Semantic → Response)*
 
 ---
 
 ## Key Features
 
-- 📊 Statistical modeling for fancam view prediction
-- 🤖 LLM-based topic and sentiment labeling
-- 🔎 Hybrid Retrieval combining Metadata Filtering and FAISS Vector Search
-- 🧠 AI Agent with automatic query routing
-- 💬 Natural language analytics over structured and unstructured data
+-  Statistical modeling for fancam view analysis
+-  LLM-powered topic and sentiment annotation
+-  Hybrid Retrieval combining Metadata Filtering and FAISS Vector Search
+-  AI Agent with automatic query routing
+-  Natural language interaction over structured and semantic knowledge
 
 ---
 
 ## Repository Structure
 
-```
+```text
 LLM-Powered-Fancam-Analytics/
 │
 ├── 01_Data_Analytics.ipynb
@@ -46,21 +52,17 @@ LLM-Powered-Fancam-Analytics/
 
 ## Notebooks
 
-### 📘 01_Data_Analytics
+###  01_Data_Analytics
 
-Explores the relationship between stage-related features and fancam views using statistical models, including feature engineering, multiple regression, stepwise selection, Ridge Regression, and K-Fold Cross Validation.
+Analyze stage-related features influencing fancam views through feature engineering, statistical modeling, and machine learning evaluation.
 
----
+###  02_LLM_Labeling
 
-### 📙 02_LLM_Labeling
+Construct a structured knowledge base by rewriting YouTube comments and labeling discussion topics and sentiment using LLM.
 
-Constructs a structured knowledge base by rewriting YouTube comments, labeling discussion topics and sentiment with LLM, and validating the generated annotations through statistical analysis.
+###  03_Hybrid_RAG_AI_Agent
 
----
-
-### 📗 03_Hybrid_RAG_AI_Agent
-
-Builds a Hybrid RAG system integrating metadata filtering, semantic retrieval, FAISS vector search, and an AI Agent capable of automatically routing user queries to structured analytics or semantic retrieval.
+Build a Hybrid RAG system integrating metadata filtering, semantic retrieval, structured analytics, and an AI Agent for natural language question answering.
 
 ---
 
@@ -95,9 +97,9 @@ Builds a Hybrid RAG system integrating metadata filtering, semantic retrieval, F
 ## Future Work
 
 - Deploy the AI Agent as an interactive web application.
-- Improve retrieval quality through reranking techniques.
-- Expand the knowledge base with additional K-pop datasets.
-- Integrate visualization dashboards for interactive analytics.
+- Enhance retrieval with reranking techniques.
+- Expand the knowledge base to additional K-pop datasets.
+- Build an interactive visualization dashboard.
 
 ---
 
