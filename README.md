@@ -16,7 +16,7 @@ The complete pipeline consists of three stages:
 
 >  **Project Architecture**
 
-*(Architecture Diagram)*
+<img width="1200" height="2460" alt="LLM-Powered Fancam Analytics architecture" src="https://github.com/user-attachments/assets/99799cf9-2c73-4309-b087-f2d386aeeee5" />
 
 >  **AI Agent Workflow**
 
