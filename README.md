@@ -20,24 +20,33 @@ The complete pipeline consists of three stages:
 
 >  **AI Agent Workflow**
 
-User Query
-     │
-     ▼
-Query Parser
-     │
- ┌───┴────────┐
- ▼            ▼
-Structured   Semantic
-     │            │
- Pandas    Metadata Filter ( vure vector search )
-     │            │
-     │     Hybrid Retrieval
-     └───────┬─────────────
-             ▼
-     Response Generator
-             ▼
-      Natural Language Answer
-
+## AI Agent Workflow
+                        User Query
+                             │
+                             ▼
+                     Query Parser
+              (Intent & Metadata Parsing)
+                             │
+               ┌─────────────┴─────────────┐
+               │                           │
+               ▼                           ▼
+      Structured Query             Semantic Query
+               │                           │
+               ▼                           ▼
+      Pandas Analytics           Metadata Filtering
+                                               │
+                                      Candidate Found?
+                                         │         │
+                                       Yes         No
+                                         │         │
+                                         ▼         ▼
+                                 Hybrid Retrieval  Pure Vector Search
+                                         │
+                                         ▼
+                                 Response Generator
+                                         │
+                                         ▼
+                              Natural Language Answer
 ---
 
 ## Key Features
