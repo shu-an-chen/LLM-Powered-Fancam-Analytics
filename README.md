@@ -24,7 +24,7 @@ The complete pipeline consists of three stages:
                         User Query
                              │
                              ▼
-                        Query Parser
+                           Query Parser
                              │
                ┌─────────────┴─────────────┐
                │                           │
