@@ -25,7 +25,6 @@ The complete pipeline consists of three stages:
                              │
                              ▼
                      Query Parser
-              (Intent & Metadata Parsing)
                              │
                ┌─────────────┴─────────────┐
                │                           │
