@@ -59,7 +59,8 @@ The complete pipeline consists of three stages:
 ---
 
 ## Repository Structure
-
+'''
+text
 LLM-Powered-Fancam-Analytics/
 │
 ├── notebooks/
@@ -75,7 +76,7 @@ LLM-Powered-Fancam-Analytics/
 ├── LICENSE
 └── .gitignore
 
----
+'''
 
 ## Notebooks
 
