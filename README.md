@@ -76,7 +76,6 @@ LLM-Powered-Fancam-Analytics/
 ├── LICENSE
 └── .gitignore
 
-'''
 
 ## Notebooks
 
