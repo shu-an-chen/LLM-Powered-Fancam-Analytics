@@ -2,6 +2,8 @@
 
 An end-to-end AI analytics project integrating **Data Analytics**, **LLM-based Knowledge Construction**, **Hybrid Retrieval- RAG**, and an **AI Agent** for natural language analysis of K-pop fancam data.
 
+Live Demo
+https://llm-powered-fancam-analytics.vercel.app
 ---
 
 ## Project Overview
