@@ -57,10 +57,9 @@ The complete pipeline consists of three stages:
 -  Natural language interaction over structured and semantic knowledge
 
 ---
-
 ## Repository Structure
-"""
-text
+
+```text
 LLM-Powered-Fancam-Analytics/
 │
 ├── notebooks/
@@ -75,7 +74,7 @@ LLM-Powered-Fancam-Analytics/
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
-"""
+```
 
 ## Notebooks
 
