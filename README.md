@@ -60,17 +60,20 @@ The complete pipeline consists of three stages:
 
 ## Repository Structure
 
-```text
 LLM-Powered-Fancam-Analytics/
 │
-├── 01_Data_Analytics.ipynb
-├── 02_LLM_Labeling.ipynb
-├── 03_Hybrid_RAG_AI_Agent.ipynb
+├── notebooks/
+│   ├── 01_Data_Analytics.ipynb
+│   ├── 02_LLM_Labeling.ipynb
+│   └── 03_AI_Agent_with_Hybrid_RAG.ipynb
+│
+├── src/
+│   └── hybrid_rag_agent.py
 │
 ├── README.md
 ├── requirements.txt
-└── LICENSE
-```
+├── LICENSE
+└── .gitignore
 
 ---
 
