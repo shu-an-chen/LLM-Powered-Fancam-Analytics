@@ -123,7 +123,6 @@ Build a Hybrid RAG system integrating metadata filtering, semantic retrieval, st
 
 ## Future Work
 
-- Deploy the AI Agent as an interactive web application.
 - Enhance retrieval with reranking techniques.
 - Expand the knowledge base to additional K-pop datasets.
 - Build an interactive visualization dashboard.
